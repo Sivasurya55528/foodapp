@@ -4,7 +4,7 @@ const RestInfo = ({ info }) => {
     const { name, city, cloudinaryImageId, areaName, cuisines, avgRating } = info
     return (
 
-        <div className=' h-56 bg-fuchsia-500 flex'>
+        <div className=' h-56 flex'>
             <div className='resInfo flex-1'>
                 <ul className='restaurantLocality'>
                     <li>{name}</li>

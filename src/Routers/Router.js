@@ -3,11 +3,11 @@ import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Body from "../Body/Body";
-import Offers from "../subMenu/Offers"
-import Account from "../subMenu/Account"
-import Cart from "../subMenu/Cart"
-import Help from "../subMenu/Help"
-import Location from "../subMenu/Location"
+import Offers from "../Header/HeaderMenuList/Offers";
+import Account from "../Header/HeaderMenuList/Account"
+import Help from "../Header/HeaderMenuList/Help";
+import Cart from "../cart/cart";
+import Location from "../Header/HeaderMenuList/Location"
 import RestaurantWrapper from "../RestaurantMenu/restaurantWrapper";
 const Router = createBrowserRouter([
     {

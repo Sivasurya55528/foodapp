@@ -3,7 +3,7 @@ import React from 'react';
 import { Banner } from './Banner';
 import Dish from '../Body/Dish';
 import { Restaurant_url } from '../config/utils';
-import Restaurant from '../Restaurant/Restaurant';
+import Restaurants from '../RestaurantMenu/Restaurants';
 import { useEffect, useState } from 'react';
 
 const Body = () => {
@@ -42,7 +42,7 @@ const Body = () => {
                 {
                     restaurantInfo.map((elem) => {
                         return (
-                            <Restaurant data={elem} />
+                            <Restaurants data={elem} />
                         )
                     })
                 }
