@@ -14,7 +14,7 @@ const Cart = () => {
                 return (
                     <div key={item?.info?.id} className="foodItems">
                         <div>
-                            <img src={`${IMAGE_URL}${item?.info?.imageId}`} />
+                            <img className=" w-52 h-40  rounded-lg" src={`${IMAGE_URL}${item?.info?.imageId}`} />
                         </div>
                         <div>
                             <span>{item?.info?.name}</span>

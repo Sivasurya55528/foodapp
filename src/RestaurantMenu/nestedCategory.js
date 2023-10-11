@@ -1,5 +1,5 @@
 import React from 'react'
-import RestaurantItems from './restaurantItems';
+import RestaurantItems from './RestaurantItems';
 
 const NestedCategory = ({ category }) => {
     return (

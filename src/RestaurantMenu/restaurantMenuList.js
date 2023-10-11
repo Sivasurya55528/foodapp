@@ -1,9 +1,9 @@
-import NestedCategory from "./nestedCategory";
-import RestaurantItems from "./restaurantItems";
+import NestedCategory from "./NestedCategory";
+import RestaurantItems from "./RestaurantItems";
 const RestaurantMenuList = ({ menuData }) => {
     return (
         <>
-            <div className="restaurantMenu">
+            <div className="restaurantMenu mx-60">
                 {menuData.map((elem) => {
                     return (
                         <div className="menuList ">

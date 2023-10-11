@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const Restaurants = (props) => {
     const { name, cloudinaryImageId, avgRating, areaName, cuisines, id } = props.data.info
     return (
-        <div className="flex h-80 " >
+        <div className="flex h-80 hover:p-1 " >
             <Link to={`/RestInfo/${id}`}>
                 <div className=" flex flex-col w-52 mb-8">
                     <img src={`${IMAGE_URL}${cloudinaryImageId
@@ -17,7 +17,7 @@ const Restaurants = (props) => {
                         <p className=" font-normal"> {avgRating}</p>
                     </div>
 
-                    <p>{cuisines.join(',')}</p>
+                    <p className=" overflow-clip">{cuisines.join(',')}<span>...</span></p>
                     <p className=" font-light">{areaName}</p>
                 </div>
             </Link>
