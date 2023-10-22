@@ -2,7 +2,7 @@ import React from "react"
 import { IMAGE_URL } from '../config/utils'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faStar } from "@fortawesome/free-solid-svg-icons"
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 const Restaurants = (props) => {
     const { name, cloudinaryImageId, avgRating, areaName, cuisines, id } = props.data.info
     return (

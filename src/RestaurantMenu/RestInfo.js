@@ -6,7 +6,7 @@ const RestInfo = ({ info }) => {
     const { name, city, cloudinaryImageId, areaName, cuisines, avgRating } = info
     return (
 
-        <div className=' h-56 flex mx-60'>
+        <div className='flex mx-60 border-dashed border-b-2  pb-5'>
             <div className='resInfo flex-1'>
                 <ul className='restaurantLocality'>
                     <li className=' font-bold text-xl'>{name}</li>
@@ -16,7 +16,7 @@ const RestInfo = ({ info }) => {
                     <li className=' pt-5 font-light'>3 kms | ₹45 Delivery fee will apply</li>
                 </ul>
             </div>
-            <div className='restaurnatImageSection  border-gray-200 border-2 border-x border-y p-1 h-2/6 rounded-lg w-17'>
+            <div className='restaurnatImageSection border-2 border-x border-y p-1 h-2/6 rounded-lg w-17'>
                 <div className=' flex items-center justify-center py-1 '>
                     {/* <img className=' w-52 h-20' src={`${IMAGE_URL}${cloudinaryImageId}`} /> */}
                     <FontAwesomeIcon icon={faStar} className=' text-green-500 w-4' />

@@ -6,6 +6,7 @@ import { Restaurant_url } from '../config/utils';
 import Restaurants from '../RestaurantMenu/Restaurants';
 import { useEffect, useState } from 'react';
 
+
 const Body = () => {
     const [restaurantInfo, setRestaurantInfo] = useState([])
     useEffect(() => {

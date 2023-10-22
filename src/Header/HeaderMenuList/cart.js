@@ -1,6 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
-import { clearCart } from "../config/cartslice/cartSlice";
-import { IMAGE_URL } from "../config/utils";
+import { clearCart } from "../../config/cartslice/cartSlice";
+import { IMAGE_URL } from "../../config/utils";
+
 const Cart = () => {
     const cartItems = useSelector((store) => store.cart);
     const dispatch = useDispatch()
@@ -19,6 +20,7 @@ const Cart = () => {
                         <div>
                             <span>{item?.info?.name}</span>
                         </div>
+
                     </div>
 
                 )
