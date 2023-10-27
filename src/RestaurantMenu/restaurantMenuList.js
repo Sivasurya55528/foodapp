@@ -1,5 +1,5 @@
 import NestedCategory from "./nestedCategory";
-import RestaurantItems from "./RestaurantItems";
+import RestaurantItems from "./restaurantItems";
 const RestaurantMenuList = ({ menuData }) => {
     return (
         <>
