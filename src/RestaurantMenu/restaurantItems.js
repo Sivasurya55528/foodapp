@@ -30,9 +30,6 @@ const RestaurantItems = ({ itemCards }) => {
 
                             <p className=' font-medium' >{elem?.card?.info?.name}</p>
                             <p className=' font-mono'><span>&#8377;</span> {elem?.card?.info?.price / 100}</p>
-                            {/* <p>Best of all worlds with 1 Double Down- all chicken no bun Burger, Regular Popcorn & Pepsi 475ml [Serves 1]</p> */}
-                            {/* <p>{elem?.data?.cards?.card?.card?.info?.aggregatedDiscountInfo?.descriptionList?.[0].meta}</p>
-                            <p>{elem?.card?.info?.feeDetails?.totalRatingsString}</p> */}
                             <p>{elem?.card?.info?.description}</p>
 
 

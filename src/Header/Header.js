@@ -18,7 +18,7 @@ const Header = () => {
                     <li className=' hover:text-orange-500 font-semibold'><Link to="/Offers">Offers<sup className=' text-xs text-orange-500 font-mono'>NEW</sup></Link> </li>
                     <li className=' hover:text-orange-500 font-semibold'><Link to="/Help">Help</Link></li>
                     <li className=' hover:text-orange-500 font-semibold'><Link to="/Account">Account</Link></li>
-                    <li className=' hover:text-orange-500 font-semibold'><Link to="/Cart">Cart</Link> </li>
+                    <li className=' hover:text-orange-500 font-semibold hover:placeholder:Empty cart'><Link to="/Cart">Cart</Link> </li>
                 </ul>
             </div>
 

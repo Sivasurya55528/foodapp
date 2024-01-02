@@ -9,8 +9,15 @@ const Cart = () => {
         dispatch(clearCart())
     }
     return (
-        <>
-            <button className="Clearcart" onClick={emptyCart}>Empty Cart</button>
+        <div className=" ">
+            <div className=" flex flex-col justify-center items-center">
+                <img className=" w-80 h-72" src={require("../../myImages/cartLogo.png")} />
+                <h2 className=" font-bold text-lg">Your cart is empty</h2>
+                <p className=" text-sm">You can go to home page to view more restaurants</p>
+                <a className=" bg-orange-500 text-white px-4 py-2 font-medium my-5" href="/">SEE RESTAURANTS NEAR YOU</a>
+
+            </div>
+            {/* <button className="Clearcart" onClick={emptyCart}>Empty Cart</button> */}
             {cartItems.map((item) => {
                 return (
                     <div key={item?.info?.id} className="foodItems">
@@ -25,7 +32,7 @@ const Cart = () => {
 
                 )
             })}
-        </>
+        </div>
     )
 }
 

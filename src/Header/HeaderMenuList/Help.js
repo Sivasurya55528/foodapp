@@ -11,7 +11,7 @@ const Help = () => {
             <div className=' flex bg-white ml-5 '>
                 <div className=' flex flex-col font-medium m-10 pl-16 bg-slate-100 justify-evenly mr-32 pr-5'>
 
-                    <a href='#' className=' bg-white py-5'>Help with orders</a>
+                    <a href='#' className=' bg-white py-5 '>Help with orders</a>
                     <a href='#'>General issues</a>
                     <a href='#'>Partner Onboarding</a>
                     <a href='#'>Legal, Terms & Conditions</a>
